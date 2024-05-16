@@ -1,0 +1,46 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow-x: hidden; */
+  /* box-sizing: border-box; */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main-container {
+  flex: 1; 
+  overflow-y: auto; 
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Toastify css code */
+
+.Toastify__toast-body {
+  font-size: 1.2em;
+}
+
+
+.Toastify__close-button {
+  display: none;
+}
